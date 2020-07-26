@@ -14,15 +14,24 @@
 </head>
 <body>
     @Html.Partial("_Navbar")
-    <div class="body-content">
         @RenderBody()
         <hr />
-    </div>
     @Html.Partial("_Footer")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="~/Scripts/tellTime.js"></script>
+    <script src="~/Scripts/carousel.js"></script>
+    <script src="~/Scripts/image_hide.js"></script>
+    <script src="~/Scripts/contact.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script>
+        $(function () {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
     @RenderSection("scripts", required:=False)
 </body>
 </html>

@@ -1,4 +1,5 @@
-﻿const current = document.querySelector("#current");
+﻿
+const current = document.querySelector("#current");
 const imgs = document.querySelectorAll(".imgs img");
 
 imgs.forEach(img => img.addEventListener('click', (e) =>
@@ -65,7 +66,5 @@ $(document).ready(function () {
             })
         }
     }
-
     navbarFixed();
-
 });

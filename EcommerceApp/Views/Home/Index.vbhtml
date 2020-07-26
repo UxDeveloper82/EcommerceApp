@@ -320,7 +320,7 @@ End Code
                             <div class="title">Electronics</div>
                             <button data-close-button class="close-button">&times;</button>
                         </div>
-                        <img id="image-modal" src="images/1.png" class="img-responsive">
+                        <img id="image-modal" src="~/Content/Images/1.png" class="img-responsive">
                         <div class="modal-body">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </div>
@@ -335,7 +335,7 @@ End Code
                             <div class="title">Electronics</div>
                             <button data-close-button class="close-button">&times;</button>
                         </div>
-                        <img id="image-modal" src="images/1.png" class="img-responsive">
+                        <img id="image-modal" src="~/Content/Images/1.png" class="img-responsive">
                         <div class="modal-body">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </div>
@@ -350,7 +350,7 @@ End Code
                             <div class="title">Electronics</div>
                             <button data-close-button class="close-button">&times;</button>
                         </div>
-                        <img id="image-modal" src="images/1.png" class="img-responsive">
+                        <img id="image-modal" src="~/Content/Images/1.png" class="img-responsive">
                         <div class="modal-body">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </div>
@@ -430,7 +430,7 @@ End Code
             <div class="row text-center">
                 <div class="col-md-3 col-sm-3">
                     <div class="gallery">
-                        <a class="test-popup-link" href="images/10.jpg">
+                        <a class="test-popup-link" href="~/Content/Images/10.jpg">
                             <img src="~/Content/Images/10.jpg" alt="" class="img-fluid">
                         </a>
 

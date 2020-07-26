@@ -6,14 +6,11 @@ Public Module BundleConfig
 
         bundles.Add(New ScriptBundle("~/bundles/jquery").Include(
                     "~/Scripts/jquery-{version}.js",
-                    "~/Scripts/tellTime.js",
                     "~/Scripts/simple-lightbox.min.js",
                     "~/Scripts/modal.js",
                     "~/Scripts/jquery.cycle.all.js",
                     "~/Scripts/main.js",
-                    "~/Scripts/image_hide.js",
-                    "~/Scripts/selectors.js",
-                    "~/Scripts/carousel.js"))
+                    "~/Scripts/selectors.js"))
 
         bundles.Add(New ScriptBundle("~/bundles/jqueryval").Include(
                     "~/Scripts/jquery.validate*"))
